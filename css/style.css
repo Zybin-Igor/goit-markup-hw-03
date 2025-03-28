@@ -340,24 +340,27 @@ font-size: 16px; */
 /*-----section 4 _Our Portfolio-----*/
 /*-----section 5 _Footer-----*/
 .footer {
-	background-color: #2E2F42
+	background-color: #2E2F42;
+	padding: 100px 0;
 }
 
 .footer-logo {
+	display: inline-block;
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4D5AE5
+	color: #4D5AE5;
+	margin-bottom: 16px;
 }
 
 .footer-part {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #F4F4FD
+	color: #F4F4FD;
 }
 
 .footer-accent {
@@ -366,5 +369,5 @@ font-size: 16px; */
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #F4F4FD
+	color: #F4F4FD;
 }
