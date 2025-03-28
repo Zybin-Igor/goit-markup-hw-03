@@ -204,11 +204,9 @@ img {
 /*----section 1 _Hero-------*/
 
 /*-----section 2 _Skils-----*/
-.ourteam-images {
-	margin-bottom: 32px;
-
+.section-skils {
+	padding: 120px 0;
 }
-
 .title-midi {
 	font-weight: 500;
 	font-size: 20px;
@@ -253,10 +251,25 @@ font-size: 16px; */
 /*-----section 2 _Skils-----*/
 
 /*-----Section 3 _Our Team-----*/
+
 .ourteam {
 	background-color: #F4F4FD;
 }
+.ourteam-images {
+	margin-bottom: 32px;
 
+}
+.ourteam-section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #2E2F42;
+	text-transform: capitalize;
+	margin-bottom: 72px;
+
+}
 .ourteam-item {
 	padding: 32px 0;
 }
@@ -275,11 +288,10 @@ font-size: 16px; */
 	/* Добавляем отступ между элементами */
 }
 
-.ourteam-item-card {
+.ourteam-card {
 	background-color: #FFFFFF;
 	flex-basis: calc((100% - 72px) / 4);
 	text-align: center;
-	border-radius: 8px;
 	border-radius: 0 0 4px 4px;
 	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(9, 12, 78, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 	/* padding: 0px 0px 32px 0px; */
