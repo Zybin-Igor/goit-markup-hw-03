@@ -252,7 +252,8 @@ font-size: 16px; */
 
 /*-----Section 3 _Our Team-----*/
 
-.ourteam {
+.ourteam-section {
+	padding: 120px 0;
 	background-color: #F4F4FD;
 }
 .ourteam-images {
