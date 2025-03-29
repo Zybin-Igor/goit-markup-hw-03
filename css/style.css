@@ -264,7 +264,7 @@ img {
 	color: #2E2F42;
 	text-transform: capitalize;
 	margin-bottom: 72px;
-
+	
 }
 
 /* div між заголовком та текстом*/
@@ -307,7 +307,15 @@ img {
 	width: calc((100% - 72px) / 4);
 	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
+.ourteam-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color:#2e2f42;
+	margin-bottom: 8px;
+}
 
 /*-----Section 3 _Our Team-----*/
 /*----section 4 _Our Portfolio-----*/
