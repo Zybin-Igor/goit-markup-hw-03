@@ -139,18 +139,16 @@ img {
 /*---Header шапка сайту--*/
 /*----section 1 _Hero-------*/
 
-.section {
+/* .section {
 	padding: 188px 0;
-}
+
+} */
 
 .hero {
-	background-color: #2E2F42;
-	flex-direction: column;
+	background-color: #2e2f42;
 	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	text-align: center;
-	background-color: #2E2F42;
+	padding: 188px 0;
+
 }
 
 .hero-title {
@@ -160,9 +158,11 @@ img {
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
-	margin-bottom: 48px;
 	max-width: 496px;
-	
+	margin-bottom: 48px;
+	margin: 0 auto;
+	margin-bottom: 48px;
+
 }
 
 .hero-btn {
@@ -197,10 +197,8 @@ img {
 	padding: 120px 0;
 }
 
-.skils-list {
-	display: flex;
-	gap: 24px;
-	flex-wrap: wrap;
+.skils-container {
+	margin: 0 auto;
 }
 
 .skils-item {
@@ -208,11 +206,19 @@ img {
 
 }
 
+.skils-list {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
 .skils-item:last-child {
 	margin-right: 0;
 }
 
-.title-midi {
+.skils-title {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -222,17 +228,18 @@ img {
 	margin-bottom: 8px;
 }
 
-.title-midi.ourteam {
+.skils-title.ourteam {
 	text-align: center;
 	background-color: inherit;
 	margin-bottom: 8px;
 }
 
 .skils-text {
+	font-weight: 400;
+	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
-	padding: 0;
 }
 
 
@@ -259,23 +266,25 @@ img {
 	margin-bottom: 72px;
 
 }
+
 /* div між заголовком та текстом*/
 .ourteam-item {
 
 	padding: 32px 0 32px;
 }
+
 /* div між заголовком та текстом*/
 
 
 
 .text-ourteam {
 	display: block;
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 
 
 }
