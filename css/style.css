@@ -6,7 +6,6 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	/* По умолчанию Regular */
 	background-color: #FFFFFF;
 	color: #434455
 }
@@ -56,9 +55,6 @@ img {
 	overflow: hidden;
 }
 
-/* button {
-	cursor: pointer;
-} */
 /*------------Header шапка сайту-----------*/
 .page-header {
 	border-bottom: 1px solid #e7e9fc;
@@ -142,8 +138,7 @@ img {
 
 /*---Header шапка сайту--*/
 /*----section 1 _Hero-------*/
-/* .hero {
-} */
+
 .section {
 	padding: 188px 0;
 }
@@ -167,8 +162,7 @@ img {
 	color: #FFFFFF;
 	margin-bottom: 48px;
 	max-width: 496px;
-	/* Добавляем отступ перед кнопкой */
-
+	
 }
 
 .hero-btn {
@@ -211,8 +205,7 @@ img {
 
 .skils-item {
 	width: calc((100% - 72px) / 4);
-	
-	/* margin-right: 24px */
+
 }
 
 .skils-item:last-child {
@@ -236,14 +229,10 @@ img {
 }
 
 .skils-text {
-	/* font-weight: 400;
-font-size: 16px; */
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 	padding: 0;
-	font-weight: 400;
-	font-size: 16px;
 }
 
 
@@ -287,7 +276,7 @@ font-size: 16px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-	/* padding-bottom: 16px; */
+
 
 }
 
@@ -308,7 +297,6 @@ font-size: 16px; */
 	background-color: #FFFFFF;
 	width: calc((100% - 72px) / 4);
 	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-	/* max-height: 380px; */
 }
 
 
